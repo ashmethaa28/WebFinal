@@ -2,9 +2,67 @@
 <html lang="en">
     <head>
       <title>404 Error</title>
-      <link rel="stylesheet" type="text/css" href="webstyle.css">
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+        body {
+          background-color: #f80d09;
+          color: white;
+          text-align: center;
+        }
+
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40%;
+        }
+
+        h1 {
+          font-family: 'Oswald';
+          font-size: 50px;
+        }
+
+        p {
+          font-family: 'Noto Sans';
+        }
+
+        .message {
+          font-size: 25px;
+        }
+
+        .contact {
+          font-size: 20px;
+        }
+
+        button {
+          display: inline-block;
+          border-radius: 4px;
+          background-color: #FFFFFF;
+          border: none;
+          color: #000000;
+          text-align: center;
+          font-family: 'Noto Sans';
+          font-size: 20px;
+          padding: 15px 32px;
+          cursor: pointer;
+        }
+
+        button:hover {
+          background-color: #000000;
+          color:#FFFFFF;
+        }
+      </style>
     </head>
     
     <body>
+      <img src="./images/robot.jpg" alt="error robot">
+      <h1>Oooops!</h1>
+      <p class="message">We can't seem to find the page you're looking for.</p>
+      <a href="home.html">
+        <button>Back to home</button>
+      </a>
+      <p class="contact">For further information please contact the wibsite owner at owner@gmail.com.</p>
     </body>
 </html>
