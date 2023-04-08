@@ -19,6 +19,23 @@
     position: relative;
 }
 
+p {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+p a {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: darkblue;
+}
+
+h1  {
+    font-family: 'Aqua Grotesque';
+    font-size: 25px;
+    color: darkred;
+}
+
 .sidebar {
     background-color: #f1f1f1;
     padding: 20px;
