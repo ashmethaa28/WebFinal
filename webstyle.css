@@ -50,7 +50,7 @@ h1  {
 
 .sidebar {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 0px;
     width: 15%;
     height: 100%;
     position: fixed;
@@ -74,10 +74,12 @@ h1  {
 
 .sidebar a:hover {
     background-color: #ddd;
+    width: 100%;
 }
 
 .selected {
     background-color: #ddd;
+    width: 100%;
 }
 
 .banner {
